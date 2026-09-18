@@ -1,0 +1,18 @@
+{ 
+  "schemaVersion": 1, 
+  "id": "shine_fork", 
+  "version": "1.0.0", 
+  "name": "Shine 3.0 Fork", 
+  "description": "Graphics fork for biome-coloured lava, interactive leaves, and bloom.", 
+  "authors": ["Developer"], 
+  "license": "MIT", 
+  "environment": "client", 
+  "entrypoints": { 
+    "client": ["net.shine.fork.ShineForkClient"] 
+  }, 
+  "mixins": ["shine_fork.mixins.json"], 
+  "depends": { 
+    "fabricloader": ">=0.19.3", 
+    "minecraft": "26.2" 
+  } 
+}

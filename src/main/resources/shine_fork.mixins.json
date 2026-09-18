@@ -1,0 +1,12 @@
+{ 
+  "required": true, 
+  "package": "net.shine.fork.mixin", 
+  "compatibilityLevel": "JAVA_21", 
+  "mixins": [ 
+    "LavaColorMixin", 
+    "InteractiveLeavesMixin" 
+  ], 
+  "injectors": { 
+    "defaultRequire": 1 
+  } 
+}
